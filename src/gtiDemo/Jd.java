@@ -16,6 +16,7 @@ public class Jd {
 		 }
 	}
 	public void name2() {
+
 		
 		/* 建立�?个Collection */
 		 String[] strings = {"A", "B", "C", "D"};
