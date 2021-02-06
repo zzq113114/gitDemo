@@ -1,10 +1,20 @@
 package gtiDemo;
 
 import java.util.Collection;
+import java.util.List;
 
 public class Jd {
 
 	public void name() {
+<<<<<<< HEAD
+		
+		   UserFormMap userFormMap = (UserFormMap) Common.findUserSession();
+	        NavbarFormMap navbarFormMap = new NavbarFormMap();
+	        navbarFormMap.put("userId", userFormMap.get("id"));
+	        navbarFormMap.put("pageLevel", "1");
+	        List<NavbarFormMap> mps = navbarMapper.findRes(navbarFormMap);
+	        return mps;
+=======
 	
 		 String[] strings = {"A", "ahzngehnqinvg", "C", "D"};
 		 Collection list = java.util.Arrays.asList(strings);
@@ -47,6 +57,7 @@ public class Jd {
 		     System.out.println(str); /* 依次输出“A”�?��?�B”�?��?�C”�?��?�D�? */
 
 		 }
+>>>>>>> refs/remotes/origin/sit-nbs-100224
 	}
 	}
 	
