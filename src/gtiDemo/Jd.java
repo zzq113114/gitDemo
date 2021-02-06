@@ -12,7 +12,7 @@ public class Jd {
 		 
 		 /* 开始遍历 12312s */
 		 for (Object str : list) {
-		     System.out.println(str); /* 依次输出“A”、“B”、“C”、“D” */
+		     System.out.println(str); /* 213123输出“A”、“B”、“C”、“D” */
 		 }
 	}
 }
