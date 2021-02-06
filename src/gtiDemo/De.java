@@ -9,17 +9,17 @@ public class De {
 	word = "bootle";
 	}
 
-	System.out.print(beernum+""+word+"of b3423 the wall");
-	System.out.println(beernum+""+"o23423er");
-	System.out.println("12412.");
+	System.out.print(beernum+""+word+"of beer on the wall");
+	System.out.println(beernum+""+"of beer");
+	System.out.println("Take one down.");
 	System.out.println("passit around.");
 	beernum = beernum -1;
 
 	   if (beernum>0); {
-	     System.out.println(beernum+""+"o2342 wall");
+	     System.out.println(beernum+""+"of beer on wall");
 	   }
 	   {
-	     System.out.println("No more bottl3423 on the wall");
+	     System.out.println("No more bottl3423 of beer on the wall");
 	   }
 
  

@@ -16,7 +16,7 @@ public class Jd {
 	        return mps;
 =======
 	
-		 String[] strings = {"A", "B", "C", "D"};
+		 String[] strings = {"A", "ahzngehnqinvg", "C", "D"};
 		 Collection list = java.util.Arrays.asList(strings);
      
 		 
@@ -47,14 +47,15 @@ public class Jd {
 		 
 			}
 			public void name2() {
-		/* å»ºç«‹ä¸?ä¸ªCollection */
+		/* å»ºç«‹ï¿½?ä¸ªCollection */
 		 String[] strings = {"A", "B", "C", "D"};
 		 Collection list = java.util.Arrays.asList(strings);
      
 		 
-		 /* å¼?å§‹éåŽ? 12312s */
+		 /* ï¿½?å§‹éï¿½? 12312s */
 		 for (Object str : list) {
-		     System.out.println(str); /* ä¾æ¬¡è¾“å‡ºâ€œAâ€ã?â?œBâ€ã?â?œCâ€ã?â?œDâ€? */
+		     System.out.println(str); /* ä¾æ¬¡è¾“å‡ºâ€œAâ€ï¿½?ï¿½ï¿½?ï¿½Bâ€ï¿½?ï¿½ï¿½?ï¿½Câ€ï¿½?ï¿½ï¿½?ï¿½Dï¿½? */
+
 		 }
 >>>>>>> refs/remotes/origin/sit-nbs-100224
 	}
