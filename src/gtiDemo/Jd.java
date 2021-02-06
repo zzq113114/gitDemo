@@ -1,18 +1,17 @@
 package gtiDemo;
 
 import java.util.Collection;
+import java.util.List;
 
 public class Jd {
 
 	public void name() {
-		/* 建立一个Collection */
-		 String[] strings = {"A", "B", "C", "D"};
-		 Collection list = java.util.Arrays.asList(strings);
-     
-		 
-		 /* 开始遍历 12312s */
-		 for (Object str : list) {
-		     System.out.println(str); /* 依次输出“A”、“B”、“C”、“D” */
-		 }
+		
+		   UserFormMap userFormMap = (UserFormMap) Common.findUserSession();
+	        NavbarFormMap navbarFormMap = new NavbarFormMap();
+	        navbarFormMap.put("userId", userFormMap.get("id"));
+	        navbarFormMap.put("pageLevel", "1");
+	        List<NavbarFormMap> mps = navbarMapper.findRes(navbarFormMap);
+	        return mps;
 	}
 }
