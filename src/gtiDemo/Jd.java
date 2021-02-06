@@ -36,6 +36,17 @@ public class Jd {
     
 		 
 			}
+			public void name2() {
+		/* å»ºç«‹ä¸?ä¸ªCollection */
+		 String[] strings = {"A", "B", "C", "D"};
+		 Collection list = java.util.Arrays.asList(strings);
+     
+		 
+		 /* å¼?å§‹éå? 12312s */
+		 for (Object str : list) {
+		     System.out.println(str); /* ä¾æ¬¡è¾“å‡ºâ€œAâ€ã?â?œBâ€ã?â?œCâ€ã?â?œDâ€? */
+		 }
+	}
 	}
 	
 }
