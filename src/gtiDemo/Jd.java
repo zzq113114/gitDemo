@@ -18,7 +18,7 @@ public class Jd {
 	
 	public void higeht() {
 		/* 建立一个Collection */
-		 String[] strings = {"A", "E", "C", "D"};
+		 String[] strings = {"2123123", "E", "C", "D"};
 		 Collection list = java.util.Arrays.asList(strings);
      
 		 
